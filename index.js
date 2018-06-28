@@ -11,8 +11,8 @@ server.use(express.static('public'));
 
 server.get('/', function(req, res) {
     res.render('home');
-})
+});
 
 server.listen(port, function() {
     console.log('in ascolto sulla porta ' + port);
-})
+});
