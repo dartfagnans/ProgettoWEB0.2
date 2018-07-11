@@ -13,6 +13,10 @@ server.get('/', function(req, res) {
     res.render('home');
 });
 
+server.get('/registrazione', function(req, res) {
+    res.render('registrazione');
+})
+
 server.listen(port, function() {
     console.log('in ascolto sulla porta ' + port);
 });

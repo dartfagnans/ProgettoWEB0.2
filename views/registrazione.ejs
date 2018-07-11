@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <title>Registrati!</title>
+</head>
+
+<body>
+
+    <div class="container-fluid bg-light border border-black">
+        <div class="container border border-black bg-white">
+            <div class="row border border-black">
+                <div class="col-xs-12 col-md-12 text-center">
+                    <h1 class="text-primary pt-3" id="site-title">TITOLO PAGINA</h1>
+                </div>
+            </div>
+            <div class="row border border-black">
+                <div class="col-xs-12 col-md-12 text-center">
+                    <p id="description">Inserisci i tuoi dati per registrarti al nostro servizio</p>
+                </div>
+            </div>
+
+            <div class="container text-center border border-black">
+                <img class="img-fluid" src="images/trasloco.jpg">
+            </div>
+
+            <form method="post" action="/login">
+                <div class="form-group">
+                    <div class="row text-center">
+                        <div class="col-md-3 col-xs-12">
+                            <label for="email">Email:</label>
+                        </div>
+                        <div class="col-md-9 col-xs-12 text-center">
+                            <input type="email" class="form-control text-center" id="email" name="email" aria-describedby="emailHelp" placeholder="enter your email">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row text-center">
+                        <div class="col-md-3 col-xs-12">
+                            <label for="password">Password:</label>
+                        </div>
+                        <div class="col-md-9 col-xs-12 text-center">
+                            <input type="password" class="form-control text-center" id="password" name="password" aria-describedby="emailHelp" placeholder="enter your password">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 text-center">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                    <div class="col-xs-12 col-md-8 text-center">
+                        <p class="text-info">Non sei ancora registrato? Clicca
+                            <a href="/registrazione">qui</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
